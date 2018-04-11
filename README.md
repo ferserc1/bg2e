@@ -60,10 +60,10 @@ Install all:
 node install-all.js
 ```
 
-Install only the C++ APIs and tools:
+Install only the C++ APIs:
 
 ```
-node install-cpp-apis-and-tools.js
+node install-cpp.js
 ```
 
 Install only the JavaScript libraries:
