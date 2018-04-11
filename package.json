@@ -1,0 +1,10 @@
+{
+  "name": "bg2e",
+  "version": "3.0.0",
+  "description": "C++ (multi engine) and JavaScript (webGL) graphics engine",
+  "author": "Fernando Serrano Carpena <ferserc1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "unzipper": "^0.8.12"
+  }
+}
