@@ -9,7 +9,8 @@ module.exports = {
         let dependencyFiles = [
             { url:`http://${ downloadServer }/${ dependencies }/bullet-android-ios-macos-winVS2015-winVS2017.zip`, dest:"bullet" },
             { url:`http://${ downloadServer }/${ dependencies }/lua-macOS-iOS-winVS2015-winVS2017-src.zip`, dest:"lua" },
-            { url:`http://${ downloadServer }/${ dependencies }/openal-android-winVS2015-winVS2017.zip`, dest:"openal" }
+            { url:`http://${ downloadServer }/${ dependencies }/openal-android-winVS2015-winVS2017.zip`, dest:"openal" },
+            { url:`http://${ downloadServer }/${ dependencies }/openvr-master-win64.zip`, dest:"openvr-master" }
         ];
 
         let dependencyDir = path.join(__dirname,'../engine');
