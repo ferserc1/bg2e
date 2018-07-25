@@ -42,8 +42,9 @@ function unzipFile(file,unzippedName="") {
             .pipe(unzip.Extract({ path: dstDir }))
             .on("close",function() {
                 // Remove zip file
-                fs.unlink(file);
-                if (!error) resolve();
+                fs.unlink(file, () => {
+                    if (!error) resolve();
+                });
             })
             .on("end",function() {
                 resolve();
