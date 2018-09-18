@@ -13,7 +13,8 @@ module.exports = {
             { url:`http://${ downloadServer }/${ dependencies }/openvr-master-win64.zip`, dest:"openvr-master" },
             { url:`http://${ downloadServer }/${ dependencies }/fbx2json-win64-osx.zip`, dest:"fbx2json-dist" },
             { url:`http://${ downloadServer }/${ dependencies }/bg2e-raytracer-win64-osx.zip`, dest:"bg2e-raytracer-dist" },
-            { url:`http://${ downloadServer }/${ dependencies }/bg2e-scene-pkg-win64-osx.zip`, dest:"bg2e-scene-pkg" }
+            { url:`http://${ downloadServer }/${ dependencies }/bg2e-scene-pkg-win64-osx.zip`, dest:"bg2e-scene-pkg" },
+            { url:`http://${ downloadServer }/${ dependencies }/curl-win64-vs2017.zip`, dest:"curl" }
         ];
 
         let dependencyDir = path.join(__dirname,'../engine');
