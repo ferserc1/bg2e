@@ -9,7 +9,8 @@ Promise.all([
         git.update('engine/bg2e-vr'),
         git.update('engine/bg2e-js'),
         git.update('engine/bg2e-js-physics'),
-        git.update('engine/bg2e-composer-js')
+        git.update('engine/bg2e-composer-js'),
+        git.update('engine/bg2e-js-voxel')
     ])
     .then(() => {
         console.log("Done");
