@@ -51,7 +51,7 @@ function unzipFile(file,unzippedName="") {
             })
             .on("error",function(err) {
                 error = true;
-                reject(new Error("could not unzip file " + file + ". " + message));
+                reject(new Error("could not unzip file " + file + ". " + err.message));
             });
     })
 }
