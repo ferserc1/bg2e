@@ -3,7 +3,11 @@ const path = require("path");
 
 module.exports = {
     updateDependencies: function() {
-        let downloadServer = 'vps396347.ovh.net';
+        return Promise.resolve();
+    },
+    
+    updateDependenciesDisabled: function() {
+        let downloadServer = 'www.bg2engine.org';
         let dependencies = 'dependencies'
 
         let dependencyFiles = [
